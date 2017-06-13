@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font: 12px/1.5 "Microsoft Yahei", Tahoma, SimSun, Verdana;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+p, ul, input {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+strong, i{
+    font-style: normal;
+    font-weight: normal;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+}
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
